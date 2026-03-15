@@ -16,10 +16,12 @@ body {
 }
 
 input {
-  display: block;
-  width: 100%;
+  //display: block;
+  display: inline;
+  //width: 100%;
+  width: 50%;
   padding: 10px;
-  margin: 10px 0;
+  //margin: 10px 0;
   box-sizing: border-box;
   font-size: 16px;
   border: 1px solid #DADCE0;
@@ -28,7 +30,11 @@ input {
   text-align: center;
   font-family: "Anta", sans-serif;
 }
-
+select {
+  display: inline;
+  width: 50%;
+  
+}
 button {
   padding: 10px;
   background-color: #1A73E8;
