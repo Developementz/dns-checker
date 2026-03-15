@@ -1,10 +1,8 @@
 async function checkSubdomain() {
   const sub = document.getElementById("sub").value.trim();
-  const domain = document.getElementById("selection");
+  const domain = document.getElementById("selection").value;
   const host = sub + domain;
-
   const url = "https://dns.google/resolve?name=" + host + "&type=A";
-
   try {
     const res = await fetch(url);
     const data = await res.json();
