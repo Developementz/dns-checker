@@ -44,8 +44,10 @@ body {
   background-color: #F1F3F4;
   text-align: center;
   font-family: "Anta", sans-serif;
+  width: 100%;
 }
 .container select {
+  display: inline;
   padding: 10px;
   //margin: 10px 0;
   box-sizing: border-box;
