@@ -32,7 +32,7 @@ body {
 }*/
 .container {
   display: grid;
-  grid-template-columns:auto auto;
+  grid-template-columns: 1fr min-content;
 }
 .container input {
   padding: 10px;
@@ -55,7 +55,7 @@ body {
   background-color: #F1F3F4;
   text-align: center;
   font-family: "Anta", sans-serif;
-  width: min-content;
+  width: auto;
 }
 button {
   padding: 10px;
