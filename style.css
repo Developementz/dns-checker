@@ -34,10 +34,27 @@ body {
   display: grid;
   grid-template-columns: auto auto;
 }
-.container input, select {
-  background-color: #f1f1f1;
+.container input {
+  padding: 10px;
+  //margin: 10px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #DADCE0;
+  border-radius: 4px;
+  background-color: #F1F3F4;
   text-align: center;
-  
+  font-family: "Anta", sans-serif;
+}
+.container select {
+  padding: 10px;
+  //margin: 10px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #DADCE0;
+  border-radius: 4px;
+  background-color: #F1F3F4;
+  text-align: center;
+  font-family: "Anta", sans-serif;
 }
 button {
   padding: 10px;
