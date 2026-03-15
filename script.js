@@ -1,7 +1,7 @@
 async function checkSubdomain() {
   const sub = document.getElementById("sub").value.trim();
-  const domain = "developmentz.site";
-  const host = sub + "." + domain;
+  const domain = document.getElementById("selection");
+  const host = sub + domain;
 
   const url = "https://dns.google/resolve?name=" + host + "&type=A";
 
